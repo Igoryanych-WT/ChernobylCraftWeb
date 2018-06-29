@@ -5,8 +5,29 @@
 <link rel="shortcut icon" href="images/favicon.png" type="image/png">
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 <style type="text/css">
+#nav {
+      width: 100%;
+      float: left;
+      margin: 0 0 3em 0;
+      padding: 0;
+      list-style: none;
+      background-color: #000000;
+      border-bottom: 2px solid #FCFBFB;
+      border-top: 2px solid #FCFBFB; }
+      #nav li {
+      float: left; }
+      #nav li a {
+      display: block;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-weight: normal;
+      color: #FFF;
+      border-right: 2px solid #FCFBFB; }
+      #nav li a:hover {
+      color: #DAA520;
+      background-color: #000000; }
 body{
-    background: url(images/bg.png) no-repeat;
+    background: black no-repeat;
 	-moz-background-size: 100%;
 	-webkit-background-size: 100%;
 	-o-background-size: 100%;
@@ -29,7 +50,20 @@ body{
   </style>
 </head>
 <body style="background-attachment:fixed" topmargin="0">
-  <p align="center"><img src="images/error.png" width="200" height="200"></p>
-  <h1 style="color:#DCDCDC;" align="center"><big><big><big>Данная страница еще не готова</big></big></big></h1>
+<ul id="nav">
+	  <li><a onclick="location.href = 'main_ru.html';" href="#">Главная</a></li>
+      <li><a onclick="location.href = 'download_ru.html';"  href="#">Скачать мод</a></li>
+      <li><a onclick="location.href = 'changelog_ru.html';" href="#">Changelog</a></li>
+	  <li><a onClick='location.href="https://vk.com/development_chernobylcraft"' href="#">Группа ВК</a></li>
+      <li><a onClick='location.href="https://vk.com/wolf___team"' href="#">WolfTeam ВК</a></li>
+      </ul>
+	  <h1 style="color:#DCDCDC;" align="center"><big><big><big>ChernobylCraft Changelog</big></big></big></h1>
+  <p align="left"><font color="#DAA520" size="6"><b>ChernobylCraft BETA 0.1.9</b></font></p>
+<ul type="disc">
+<p align="left"><font size="4" color="white"><strong>Фиксы:</strong></font></p>
+  <li><p align="left"><font color="white">-Фиксация ошибок, найденные в версии 0.1.0</font></p></li>
+  <p align="left"><font size="4" color="white"><strong>Изменения:</strong></font></p>
+  <li><p align="left"><font color="white">-Обновлены некоторые текстуры</font></p></li>
+    <li><p align="left"><font color="white">-Прочие изменения в модификации</font></p></li>
   </body>
 </html>
