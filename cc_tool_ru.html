@@ -5,47 +5,6 @@
 <link rel="shortcut icon" href="images/favicon.png" type="image/png">
 <meta http-equiv="Content-type" content="text/html; charset=utf-8 content="width=1180" name="viewport" id="viewport">
 <style type="text/css">
-.demo {
-  position: relative;
-  padding-top: 50%;
-  margin: 10%;
-  overflow: hidden;
-}
-.demo input { display: none; }
-.demo label { transition: 3s; }
-.demo img {
-  position: absolute; 
-  left: 50%;
-  top: 50%;
-  max-width: 100%;
-  max-height: 100%;
-  -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
-}
-.demo label,
-.demo #vkl1:checked ~ [for="vkl1"],
-.demo #vkl2:checked ~ [for="vkl2"],
-.demo #vkl3:checked ~ [for="vkl3"],
-.demo #vkl4:checked ~ [for="vkl4"],
-.demo #vkl5:checked ~ [for="vkl5"] {
-  position: absolute; 
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  transform: translateX(100%); opacity: 0;
-}
-.demo #vkl1:checked ~ [for="vkl3"],
-.demo #vkl2:checked ~ [for="vkl4"],
-.demo #vkl3:checked ~ [for="vkl5"],
-.demo #vkl4:checked ~ [for="vkl1"],
-.demo #vkl5:checked ~ [for="vkl2"] {
-  transform: translateX(-100%); opacity: 0;
-}
-.demo #vkl1:checked ~ [for="vkl2"],
-.demo #vkl2:checked ~ [for="vkl3"],
-.demo #vkl3:checked ~ [for="vkl4"],
-.demo #vkl4:checked ~ [for="vkl5"],
-.demo #vkl5:checked ~ [for="vkl1"] {transform: translateX(0); opacity: 1;}
 #nav {
       width: 100%;
       float: left;
@@ -82,7 +41,7 @@ body{
     src: local(capture), url(fonts/capture.ttf);
    }
    h1 {
-	margin-bottom: 4%;
+	margin-bottom: 90px;
    }
    ul {
     font-family: 11952, 'Comic Sans MS';
