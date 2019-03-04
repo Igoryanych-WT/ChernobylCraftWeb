@@ -468,6 +468,10 @@ a.button8:active { background: black; }
     margin-bottom: 30px;
 }
 
+.content h4{
+	color: #f70505;
+}
+
 .content h3{
 	color: #eded72;
 }
