@@ -1,2 +1,2 @@
 # igoryanych-wt.github.io
-Файлы официальной Web страницы модификации ChernobylCraft для Minecraft Bedrock
+Официальный хост репозиторий сайта chernobylcraft.ga
